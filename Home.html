@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>>Home</title>
+    <script type="text/javascript">
+        function actionConfirm(answer) {
+            var result = "";
+            if (answer) {
+                result = "Yes, you can make call to partner";
+            } else {
+                result = "Pls stop all";
+            }
+            return result;
+        }
+
+    </script>
+</head>
+<body>
+        <script type="text/javascript">
+            var dataConfirm=confirm("Can i use your phone");
+            var dtConfirmed=actionConfirm(dataConfirm);
+            alert(dtConfirmed);
+        </script>
+</body>
+</html>
